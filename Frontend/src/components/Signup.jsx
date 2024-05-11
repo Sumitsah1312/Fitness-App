@@ -65,6 +65,20 @@ function Signup() {
       <br />
       {errors.password && <span className='text-red-500'>This field is required</span>}
     </div>
+    <div className='pt-4'>
+      <span>Height</span>
+      <br />
+      <input type='number' placeholder='Enter Your Height' {...register("fullname", { required: true })}  className='w-80  px-3 py-1 border-rounded-md '/>
+      <br />
+      {errors.fullname && <span className='text-red-500'>This field is required</span>}
+    </div>
+    <div className='pt-4'>
+      <span>Weight</span>
+      <br />
+      <input type='number' placeholder='Enter Your Weight' {...register("fullname", { required: true })}  className='w-80  px-3 py-1 border-rounded-md '/>
+      <br />
+      {errors.fullname && <span className='text-red-500'>This field is required</span>}
+    </div>
     {/* Button */}
     <div className='text-center mt-2 display-flex justify-around'>
       <button className='bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-300' >Signup</button>

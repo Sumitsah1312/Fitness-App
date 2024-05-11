@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 
-function Freebook() {
+function bmi() {
   const [height, setHeight] = useState(0);
   const [weight, setWeight] = useState(0);
   const [bmi, setBMI] = useState(0);
@@ -66,4 +66,4 @@ function Freebook() {
   );
 }
 
-export default Freebook;
+export default bmi;

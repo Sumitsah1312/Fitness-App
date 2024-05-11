@@ -8,7 +8,13 @@ function Navbar() {
       <li>
         <a href="/">Home</a>
       </li>
+      <li>
+        <a href="/signup">Signup</a>
+      </li>
       
+      <li>
+        <a href="/activity">Activity</a>
+      </li>
       <li>
         <a href="/contact">Contact</a>
       </li>

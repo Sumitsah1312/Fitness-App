@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar'
 import Banner from '../banner'
-import BMI from '../freebook'
+import BMI from '../BMI.jsx'
 import Footer from '../Footer'
 function Home() {
   return (
